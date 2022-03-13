@@ -1,0 +1,55 @@
+.iklan {
+	height: 100%;
+	overflow: scroll;
+	background-color: #90e0ef;
+	border-radius: 10px;
+	color: #000;
+	position: relative;
+	scrollbar-width: none; /*to work in moz*/
+}
+
+.iklan::-webkit-scrollbar {
+	display: none;
+}
+
+.iklan h2 {
+	font-size: 1.5rem;
+	font-weight: 700;
+}
+
+.iklan > div {
+	position: absolute;
+	padding: 2rem;
+	display: flex;
+	flex-direction: column;
+	gap: 1.5rem;
+}
+
+.iklan .produk {
+	position: relative;
+	display: flex;
+	color: #03045e;
+	align-items: center;
+	gap: 1rem;
+	transition: transform 0.2s linear;
+}
+
+.produk:hover {
+	transform: translateX(10px);
+}
+
+.iklan img {
+	width: 3rem;
+}
+
+.iklan h3 {
+	font-weight: 600;
+	font-size: 1rem;
+}
+.info-iklan > * {
+	margin: 0;
+}
+.info-iklan p {
+	font-size: 1rem;
+	font-weight: 400;
+}

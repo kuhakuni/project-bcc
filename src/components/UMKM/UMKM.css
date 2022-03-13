@@ -1,0 +1,56 @@
+.umkm {
+	height: 100%;
+	overflow: scroll;
+	background-color: #caf0f8;
+
+	border-radius: 10px;
+	color: #03045e;
+	position: relative;
+	scrollbar-width: none; /*to work in moz*/
+}
+
+.umkm::-webkit-scrollbar {
+	display: none;
+}
+
+.umkm h2 {
+	font-size: 1.5rem;
+	font-weight: 700;
+}
+
+.umkm > div {
+	position: absolute;
+	padding: 2rem;
+	display: flex;
+	flex-direction: column;
+	gap: 1.5rem;
+}
+
+.umkm .user {
+	position: relative;
+	display: flex;
+	color: #03045e;
+	align-items: center;
+	gap: 1rem;
+	transition: transform 0.2s linear;
+}
+
+.user:hover {
+	transform: translateX(10px);
+}
+
+.umkm img {
+	width: 3rem;
+}
+
+.umkm h3 {
+	font-weight: 600;
+	font-size: 1rem;
+}
+.info-user > * {
+	margin: 0;
+}
+.info-user p {
+	font-size: 1rem;
+	font-weight: 400;
+}

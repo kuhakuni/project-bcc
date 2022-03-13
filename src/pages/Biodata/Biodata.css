@@ -1,0 +1,47 @@
+.biodata h1 {
+	font-size: 1rem;
+	font-weight: 600;
+	color: #03045e;
+	margin-bottom: 1rem;
+}
+
+.biodata .select {
+	font-size: 0.8rem;
+	font-weight: 500;
+	color: #023e8a;
+}
+
+.biodata select {
+	background: #f0fbff;
+	border: 1px solid #0096c7;
+	width: auto;
+	font-size: 1rem;
+	font-weight: 700;
+	border-radius: 10px;
+	color: #03045e;
+}
+
+.biodata input {
+	background: #f0fbff;
+	border: 1px solid #0096c7;
+	border-radius: 10px;
+}
+.biodata label {
+	font-weight: 500;
+	font-size: 0.9rem;
+	color: #023e8a;
+}
+.biodata button[type="submit"] {
+	font-size: 1rem;
+	font-weight: 700;
+	color: #ade8f4;
+	background-color: #023e8a;
+	border-radius: 1.7rem;
+	padding: 1rem;
+	margin-top: 1rem;
+	transition: all 0.15s ease-in-out;
+}
+.biodata button:hover {
+	color: #ade8f4;
+	background-color: #276ecc;
+}
